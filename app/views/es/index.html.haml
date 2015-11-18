@@ -1,0 +1,8 @@
+%h1 Es#index
+%p Find me in app/views/es/index.html.haml
+#content
+
+  .items = @es.each do |es|
+      %strong =  es.type
+       es.width
+%end

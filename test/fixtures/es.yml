@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  width: 1
+  angle: 1
+  steps: 1
+  height: 1
+  speed: 1
+  cp: MyString
+  inventer: false
+  mcuinventer: 1
+  plcinventer: 1
+  upmax: 1
+  buttmax: 1
+  suportgap: 1
+
+two:
+  type: 
+  width: 1
+  angle: 1
+  steps: 1
+  height: 1
+  speed: 1
+  cp: MyString
+  inventer: false
+  mcuinventer: 1
+  plcinventer: 1
+  upmax: 1
+  buttmax: 1
+  suportgap: 1
