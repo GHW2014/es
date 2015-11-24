@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151118133340) do
+ActiveRecord::Schema.define(version: 20151124143547) do
 
   create_table "es", force: :cascade do |t|
     t.string   "type"
@@ -29,6 +29,60 @@ ActiveRecord::Schema.define(version: 20151118133340) do
     t.integer  "suportgap"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+  end
+
+  create_table "es_dim1s", force: :cascade do |t|
+    t.integer  "drive"
+    t.integer  "step"
+    t.integer  "dim_a"
+    t.integer  "dim_b"
+    t.integer  "dim_c"
+    t.integer  "dim_d"
+    t.integer  "dim_e"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "es_type_id"
+  end
+
+  create_table "es_dim2s", force: :cascade do |t|
+    t.string   "inout"
+    t.integer  "dim_g"
+    t.integer  "dim_j"
+    t.integer  "dim_f"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "es_type_id"
+  end
+
+  create_table "es_dim3s", force: :cascade do |t|
+    t.integer  "drive"
+    t.integer  "dim_w800"
+    t.integer  "dim_w1000"
+    t.integer  "dim_w1200"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "es_type_id"
+  end
+
+  create_table "es_dim4s", force: :cascade do |t|
+    t.integer  "width_type"
+    t.integer  "dim_w1"
+    t.integer  "dim_w2"
+    t.integer  "dim_w3"
+    t.integer  "dim_w4"
+    t.integer  "dim_w5"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "es_type_id"
+  end
+
+  create_table "es_types", force: :cascade do |t|
+    t.string   "type"
+    t.integer  "angle"
+    t.string   "use"
+    t.string   "frametype"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end

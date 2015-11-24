@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  inout: MyString
+  dim_g: 1
+  dim_j: 1
+  dim_f: 1
+
+two:
+  inout: MyString
+  dim_g: 1
+  dim_j: 1
+  dim_f: 1

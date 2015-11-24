@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  width_type: 1
+  dim_w1: 1
+  dim_w2: 1
+  dim_w3: 1
+  dim_w4: 1
+  dim_w5: 1
+
+two:
+  width_type: 1
+  dim_w1: 1
+  dim_w2: 1
+  dim_w3: 1
+  dim_w4: 1
+  dim_w5: 1

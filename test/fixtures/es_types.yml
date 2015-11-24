@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  angle: 1
+  use: MyString
+  frametype: MyString
+
+two:
+  type: 
+  angle: 1
+  use: MyString
+  frametype: MyString
